@@ -31,6 +31,11 @@ export default {
   buildModules: [
   ],
 
+
+  server: {
+    host: '127.0.0.1', // Прослушивает все сетевые интерфейсы
+    port: 3000 // Или любой другой порт, который вы предпочитаете
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
